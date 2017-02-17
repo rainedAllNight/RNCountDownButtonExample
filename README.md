@@ -25,11 +25,11 @@ a custom countdown button（一个自定义的倒计时按钮）
 @objc optional func countdownButton(countdownButton: RNCountDownButton, didUpdatedWith second: Int)
 ```
 
-* ### 属性设置
 ```
 //总的倒计时时间，默认为60s
 var RNCountDownNumber = 60
 ```
+
 
     
 

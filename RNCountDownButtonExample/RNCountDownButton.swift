@@ -9,14 +9,19 @@
 import UIKit
 
 @objc protocol RNCountDownButtonDelegate {
+    // did update second
     @objc optional func countdownButton(countdownButton: RNCountDownButton, didUpdatedWith second: Int)
+    
+    // did start countdown
     @objc optional func countdownButtonDidStarted(countdownButton: RNCountDownButton)
+    
+    // did stop countdown
     @objc optional func countdownButtonDidStoped(countdownButton: RNCountDownButton)
 }
 
 class RNCountDownButton: UIButton {
 
-    let RNCountDownNumber = 10
+    var RNCountDownNumber = 60
     var timer: Timer?
     weak var delegate: RNCountDownButtonDelegate?
 

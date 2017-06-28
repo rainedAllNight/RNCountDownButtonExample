@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController, RNCountDownButtonDelegate {
+class ViewController: UIViewController, RNCountdownButtonDelegate {
     
-    @IBOutlet weak var countDownButton: RNCountDownButton!
+    @IBOutlet weak var countDownButton: RNCountdownButton!
     @IBOutlet weak var countLabel: UILabel!
     
     
@@ -19,8 +19,7 @@ class ViewController: UIViewController, RNCountDownButtonDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.countDownButton.delegate = self
-        self.countDownButton.layer.cornerRadius = self.countDownButton.frame.height/2
-        self.countDownButton.layer.masksToBounds = true
+        self.countDownButton.isEnabled = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,18 +33,18 @@ class ViewController: UIViewController, RNCountDownButtonDelegate {
         self.countDownButton.start()
     }
     
-    // MARK: - RNCountDownButtonDelegate
-    
-    func countdownButtonDidStarted(countdownButton: RNCountDownButton) {
+    // MARK: - RNCountdownButtonDelegate
+    func countdownButtonDidBeganCounting(countdownButton: RNCountdownButton) {
         self.countLabel.text = "倒计时已经开始"
     }
     
-    func countdownButton(countdownButton: RNCountDownButton, didUpdatedWith second: Int) {
-        self.countLabel.text = "剩余\(second)秒"
-    }
-    
-    func countdownButtonDidStoped(countdownButton: RNCountDownButton) {
+    func countdownButtonDidEndCounting(countdownButton: RNCountdownButton) {
         self.countLabel.text = "倒计时已经结束"
     }
+
+    func countdownButton(countdownButton: RNCountdownButton, didUpdatedWith seconds: Int) {
+        self.countLabel.text = "剩余\(seconds)秒"
+    }
+    
 }
 

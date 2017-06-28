@@ -14,7 +14,7 @@
 		76C036CA1E39F857003C5527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C036C81E39F857003C5527 /* LaunchScreen.storyboard */; };
 		76C036D51E39F858003C5527 /* RNCountDownButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C036D41E39F858003C5527 /* RNCountDownButtonExampleTests.swift */; };
 		76C036E01E39F858003C5527 /* RNCountDownButtonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C036DF1E39F858003C5527 /* RNCountDownButtonExampleUITests.swift */; };
-		76C036EE1E39F8E2003C5527 /* RNCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C036ED1E39F8E2003C5527 /* RNCountDownButton.swift */; };
+		EAA71DBB1F03B47D005F4A58 /* RNCountdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA71DBA1F03B47D005F4A58 /* RNCountdownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		76C036DB1E39F858003C5527 /* RNCountDownButtonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCountDownButtonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C036DF1E39F858003C5527 /* RNCountDownButtonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNCountDownButtonExampleUITests.swift; sourceTree = "<group>"; };
 		76C036E11E39F858003C5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76C036ED1E39F8E2003C5527 /* RNCountDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCountDownButton.swift; sourceTree = "<group>"; };
+		EAA71DBA1F03B47D005F4A58 /* RNCountdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCountdownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				76C036BF1E39F857003C5527 /* AppDelegate.swift */,
 				76C036C11E39F857003C5527 /* ViewController.swift */,
-				76C036ED1E39F8E2003C5527 /* RNCountDownButton.swift */,
+				EAA71DBA1F03B47D005F4A58 /* RNCountdownButton.swift */,
 				76C036C31E39F857003C5527 /* Main.storyboard */,
 				76C036C61E39F857003C5527 /* Assets.xcassets */,
 				76C036C81E39F857003C5527 /* LaunchScreen.storyboard */,
@@ -267,7 +267,7 @@
 			files = (
 				76C036C21E39F857003C5527 /* ViewController.swift in Sources */,
 				76C036C01E39F857003C5527 /* AppDelegate.swift in Sources */,
-				76C036EE1E39F8E2003C5527 /* RNCountDownButton.swift in Sources */,
+				EAA71DBB1F03B47D005F4A58 /* RNCountdownButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +518,7 @@
 				76C036E61E39F858003C5527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C036E71E39F858003C5527 /* Build configuration list for PBXNativeTarget "RNCountDownButtonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				76C036E91E39F858003C5527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76C036EA1E39F858003C5527 /* Build configuration list for PBXNativeTarget "RNCountDownButtonExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				76C036EC1E39F858003C5527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

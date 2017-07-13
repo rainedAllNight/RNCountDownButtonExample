@@ -14,7 +14,7 @@
 		76C036CA1E39F857003C5527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C036C81E39F857003C5527 /* LaunchScreen.storyboard */; };
 		76C036D51E39F858003C5527 /* RNCountDownButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C036D41E39F858003C5527 /* RNCountDownButtonExampleTests.swift */; };
 		76C036E01E39F858003C5527 /* RNCountDownButtonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C036DF1E39F858003C5527 /* RNCountDownButtonExampleUITests.swift */; };
-		EA8966051F175C7A0052471A /* RNCountdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8966041F175C7A0052471A /* RNCountdownButton.swift */; };
+		EAB77DFA1F1768EA004302AA /* RNCountdownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB77DF91F1768EA004302AA /* RNCountdownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		76C036DB1E39F858003C5527 /* RNCountDownButtonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCountDownButtonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C036DF1E39F858003C5527 /* RNCountDownButtonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNCountDownButtonExampleUITests.swift; sourceTree = "<group>"; };
 		76C036E11E39F858003C5527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA8966041F175C7A0052471A /* RNCountdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCountdownButton.swift; sourceTree = "<group>"; };
+		EAB77DF91F1768EA004302AA /* RNCountdownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCountdownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		76C036BE1E39F857003C5527 /* RNCountDownButtonExample */ = {
 			isa = PBXGroup;
 			children = (
-				EA8966031F175C7A0052471A /* RNCountdownButton */,
+				EAB77DF91F1768EA004302AA /* RNCountdownButton.swift */,
 				76C036BF1E39F857003C5527 /* AppDelegate.swift */,
 				76C036C11E39F857003C5527 /* ViewController.swift */,
 				76C036C31E39F857003C5527 /* Main.storyboard */,
@@ -126,14 +126,6 @@
 				76C036E11E39F858003C5527 /* Info.plist */,
 			);
 			path = RNCountDownButtonExampleUITests;
-			sourceTree = "<group>";
-		};
-		EA8966031F175C7A0052471A /* RNCountdownButton */ = {
-			isa = PBXGroup;
-			children = (
-				EA8966041F175C7A0052471A /* RNCountdownButton.swift */,
-			);
-			path = RNCountdownButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +267,7 @@
 			files = (
 				76C036C21E39F857003C5527 /* ViewController.swift in Sources */,
 				76C036C01E39F857003C5527 /* AppDelegate.swift in Sources */,
-				EA8966051F175C7A0052471A /* RNCountdownButton.swift in Sources */,
+				EAB77DFA1F1768EA004302AA /* RNCountdownButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
